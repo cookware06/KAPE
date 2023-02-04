@@ -28,8 +28,8 @@ E.g PECmd
 
 The values surrounded by % are variables that KAPE will replace at runtime. All the available variables are specified in the manual as well as in all the included modules for reference and examples, but it is pretty straightforward. 
 
-%sourceDirectory% will be replaced with the value of --msource.
-%destinationDirectory% will be replaced with --mdest plus the category from the module (ProgramExecution in the case of PECmd)
+1. %sourceDirectory% will be replaced with the value of --msource.
+2. %destinationDirectory% will be replaced with --mdest plus the category from the module (ProgramExecution in the case of PECmd)
 
 This allows KAPE to work regardless of source or destination directories, drive letters, UNC paths, etc.
 
