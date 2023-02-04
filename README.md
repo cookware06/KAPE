@@ -44,6 +44,10 @@ Sample examples:
 3. kape.exe --tsource c --tdest c:\temp\tout --target evidenceofexecution --tflush --mdest C:\Temp\mout --module PECmd --mflush
 4. kape.exe --tsource c: --tdest L:\collect --target QuickTimeline --mdest L:\output --module QuickTimelinekape.exe --tsource c: --tdest L:\collect%d --target EvidenceOfExecution--mdest L:\output%d --module PECmd
 
+Once you're familiar with the tool, try performing the below task from INE-Public Lab
+
+https://raw.githubusercontent.com/ine-content/INE-Public/main/Labs/Evidence%20Acquisition%20Using%20KAPE
+
 # Documentation Credits: 
 https://binaryforay.blogspot.com/2019/02/introducing-kape.html 
 
