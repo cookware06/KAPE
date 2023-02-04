@@ -28,8 +28,8 @@ E.g PECmd
 
 The values surrounded by % are variables that KAPE will replace at runtime. All the available variables are specified in the manual as well as in all the included modules for reference and examples, but it is pretty straightforward. 
 
-# %sourceDirectory% will be replaced with the value of --msource.
-# %destinationDirectory% will be replaced with --mdest plus the category from the module (ProgramExecution in the case of PECmd)
+%sourceDirectory% will be replaced with the value of --msource.
+%destinationDirectory% will be replaced with --mdest plus the category from the module (ProgramExecution in the case of PECmd)
 
 This allows KAPE to work regardless of source or destination directories, drive letters, UNC paths, etc.
 
@@ -39,12 +39,13 @@ KAPE requires administrator rights, so the first thing to do is open up an admin
 
 Sample examples:
 
-kape.exe --tsource c --tdest c:\temp\tout --target evidenceofexecution --vhdx MyBaseNameExample
-kape.exe --tsource c --tdest c:\temp\tout --target evidenceofexecution --vhdx MyBaseNameExample --vss
-kape.exe --tsource c --tdest c:\temp\tout --target evidenceofexecution --tflush --mdest C:\Temp\mout --module PECmd --mflush
-kape.exe --tsource c: --tdest L:\collect --target QuickTimeline --mdest L:\output --module QuickTimelinekape.exe --tsource c: --tdest L:\collect%d --target EvidenceOfExecution--mdest L:\output%d --module PECmd
+1. kape.exe --tsource c --tdest c:\temp\tout --target evidenceofexecution --vhdx MyBaseNameExample
+2. kape.exe --tsource c --tdest c:\temp\tout --target evidenceofexecution --vhdx MyBaseNameExample --vss
+3. kape.exe --tsource c --tdest c:\temp\tout --target evidenceofexecution --tflush --mdest C:\Temp\mout --module PECmd --mflush
+4. kape.exe --tsource c: --tdest L:\collect --target QuickTimeline --mdest L:\output --module QuickTimelinekape.exe --tsource c: --tdest L:\collect%d --target EvidenceOfExecution--mdest L:\output%d --module PECmd
 
-Documentation Credits: https://binaryforay.blogspot.com/2019/02/introducing-kape.html 
+# Documentation Credits: 
+https://binaryforay.blogspot.com/2019/02/introducing-kape.html 
 
-Big Thanks for Eric Zimmerman for this wonderful tool.
+# Big Thanks for Eric Zimmerman for this wonderful tool.
 All Credits goes to : https://github.com/EricZimmerman/KapeFiles
