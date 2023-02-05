@@ -43,9 +43,7 @@ Sample examples:
 2. **kape.exe -tsource C: --target !ALL --tdest D:\Tasks2 --vhdx Task2**
 3. **kape.exe --tsource C: --tdest D:\Task3 --target FileSystem,EventLogs --vss --vhdx Task3**
 
-Once you're familiar with the tool, try performing the below task from INE-Public Lab
-
-https://raw.githubusercontent.com/ine-content/INE-Public/main/Labs/Evidence%20Acquisition%20Using%20KAPE
+Once you're familiar with the tool, try performing the below tasks for make yourself handy with KAPE
 
 # Let's Practise KAPE with some tasks.,
 
@@ -89,10 +87,6 @@ Prefer Watching:
 # Task 3: KAPE GUI and Updates
 
 You are required to acquire evidence using the KAPE GUI, then use a module(s) to process the evidence acquired. You are also required to check how to make sure KAPE is up to date.
-
-Refer: 
-1. https://assets.ine.com/cybersecurity-lab-images/1e108bbc-52ec-4b79-981a-2f6629dba35d/image29.PNG
-2. https://assets.ine.com/cybersecurity-lab-images/1e108bbc-52ec-4b79-981a-2f6629dba35d/image30.PNG
 
 # Task 4: KAPE DIY Tasks
 
